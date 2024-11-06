@@ -1,1 +1,11 @@
 node_modules
+*.log
+node_modules/
+build/
+dist/
+*.min.js
+*.min.css
+!*.js   # Make sure to include JS files
+!*.css  # Make sure to include CSS files
+git add .gitignore
+git commit -m "Update .gitignore to track JS and CSS files"
