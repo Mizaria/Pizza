@@ -100,7 +100,7 @@ function Pizza({ image, name, description, price, isSoldOut }) {
         : <p  id="soldout" className="available-text">Pizza Available!</p>}
     </div>
   );
-};
+}
 
 
 function App() {
